@@ -1,0 +1,247 @@
+ <!DOCTYPE html>
+<html>
+<title>Kloudone</Kloud Jobs>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://wallpaperaccess.com/full/777.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">JOB</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">INTERVIEW</a>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE PORTAL</span></h5>
+    <p>In this age of increased competition, companies and candidates face a common problem: Thousands of candidates apply for every job opening which can create a daunting situation. How can companies quickly identify talented candidates? Manually going through thousands of resumes or conducting interviews requires a lot of time and effort. How can good candidates, highlight themselves to companies? Showing a college marksheet or a resume is not useful since companies can't really differentiate using these.</p>
+    <p>Tell us what kind of a job you are looking out for and stay updated with latest opportunities.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Download the Kloud app for free & browse from a variety of jobs based on your preferences.</i></p>
+    </div>
+    <img src="https://as1.ftcdn.net/jpg/01/86/04/72/500_F_186047201_MjfDzs2ByHPgLXtY1D2OK8rDk8vxqWE3.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>Opening hours:</strong> everyday from 9am to 6pm.</p>
+    <p><strong>Address:</strong>No.120 AB Block, 2nd Floor, Bangalore</p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">JOB</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">Job</div>
+      </a>
+      
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Associate Application Test Engineer</h5>
+      <p class="w3-text-grey">Cloud Technology pvt ldt, Bangalore</p><br>
+      <p class="w3-text-grey">Cloud Tech is a microcosm of Cloud Corp. We work closely with the global teams to deliver a broad range of Services and Technology solutions to our clients, including Cloud and Infrastructure Transformation Services, Digital Workplace Services, Application Services, Security solutions, technology products, industry solutions.</p><br>
+    
+      <h5>Software Testing</h5>
+      <p class="w3-text-grey">Soft Tech Pvt Ldt, Chennai.</p><br>
+      <p class="w3-text-grey">Desired Candidate Profile: BE/B.Tech /MCA in CS/IT with aggregate 70% in academics throughout.</p><br>
+      <h5>Full Stack Developer</h5>
+      <p class="w3-text-grey">Stroking Tech pvt ldt, Hyderabad.</p><br>
+      <p class="w3-text-grey">Desired Candidate Profile: BE/B.Tech in CS/IT with aggregate 65% in academics throughout.</p><br>    
+      <h5>React Native Mobile Application Developer</h5>
+      <p class="w3-text-grey">Global Service Pvt Ldt, Mumbai.</p><br>
+      <p class="w3-text-grey">Desired Candidate Profile: BE/B.Tech in CS/IT with aggregate 65% in academics throughout.</p><br>
+    
+    </div>
+
+    
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">INTERVIEW</span></h5>
+    <p>Find Your Job with Kloud.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Crossing_Republik_Ghaziabad_%28NH_24%29.jpg" class="w3-image" style="width:100%">
+    <p><span class="w3-tag">KLOUD!</span> Read and practice from Interview questions and experiences shared by candidates who appeared for the interview.</p>
+    <p><strong>Phone Number Verification</strong> a table, ask for today's special or just send us a message:</p>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Phone Changer</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <style>
+        body {
+            padding-top: 60px;
+        }
+    </style>
+    <script>
+        $(function() {
+            $("#phoneChangerForm").submit(function(event) {
+                event.preventDefault();
+
+                var errorMessage = $("#errorMessage");
+                var error = $("#error");
+                error.hide();
+
+                $("#message").hide();
+
+                var firstName = $("#firstName").val();
+                var lastName = $("#lastName").val();
+                var email = $("#email").val();
+                var phone = $("#phone").val();
+
+                if (firstName.length == 0 || lastName.length == 0 || email.length == 0 || phone.length == 0) {
+                    errorMessage.text("All of the fields are required.");
+                    error.show();
+                }
+                else {
+                    $.ajax({
+                        url: event.target.action,
+                        method: event.target.method,
+                        data: JSON.stringify({
+                            firstName: firstName,
+                            lastName: lastName,
+                            email: email,
+                            phone: phone
+                        }),
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        success: function(data) {
+                            $("#firstName").val("");
+                            $("#lastName").val("");
+                            $("#email").val("");
+                            $("#phone").val("");
+                            $("#messageMessage").text("Record updated!");
+                            $("#message").show();
+                        },
+                        error: function(err) {
+                            errorMessage.text(err.responseJSON.error);
+                            error.show();
+                        }
+                    })
+                }
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">Phone Number Changer</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <form id="phoneChangerForm" action="/update" method="post" style="width: 400px">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Update Your Phone Number</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="For verification" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="For verification" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="For verification" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="New Phone Number" required>
+                    </div>
+                </div>
+                <div class="panel-footer">
+                    <div id="message" class="alert alert-info" role="alert" style="display: none;">
+                        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                        <span id="messageMessage"></span>
+                    </div>
+                    <div id="error" class="alert alert-danger" role="alert" style="display: none;">
+                        <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                        <span class="sr-only">Error:</span>
+                        <span id="errorMessage"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Update Phone Number</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://kloudone.com/aboutus.html" title="Kloudone" target="_blank" class="w3-hover-text-green">Kloudone</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
+
